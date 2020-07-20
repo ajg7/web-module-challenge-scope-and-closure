@@ -108,7 +108,7 @@ function finalScore(inning, numOfInnings,formatNumber) {
   return result;
 }
 
-// console.log(finalScore(inning, 9, formatNumber))
+console.log(finalScore(inning, 9, formatNumber))
 
 /* Task 4: 
 
