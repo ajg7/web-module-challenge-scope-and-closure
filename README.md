@@ -43,7 +43,7 @@ Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
 
-    It is both the function and the enviornment in which it was declared.
+    It is both the function and the lexical enviornment in which it was declared.
 
 2. Study the following code, then answer the questions below.
 

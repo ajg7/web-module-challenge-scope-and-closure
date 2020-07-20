@@ -18,6 +18,7 @@ function processFirstItem(stringList, callback) {
   return callback(stringList[0])
 }
 
+
 // ⭐️ Example Challenge END ⭐️
 
 
@@ -27,11 +28,11 @@ function processFirstItem(stringList, callback) {
  * Study the code for counter1 and counter2. Answer the questions below.
  * 
  * 1. What is the difference between counter1 and counter2?
- * 
+ *        counter 1 returns the function counter and the variable is within the lexical enviornment of the function counter. Counter 2 defines count outside of the function, and simply returns the increment for count.
  * 2. Which of the two uses a closure? How can you tell?
- * 
+ *        counter 1 uses a closure because it has a function within it, and the function is using data in its lexical enviornment
  * 3. In what scenario would the counter1 code be preferable? In what scenario would counter2 be better? 
- *
+ *        
 */
 
 // counter1 code
