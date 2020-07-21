@@ -42,6 +42,9 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+    It is both the function and the lexical enviornment in which it was declared.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,8 +66,16 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+  The closure is created by the anonymous function within personalDice, and its invocation is stored in a variable called dansRoll.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+    The first dansRoll call creates and stores a random number between 1 and 6 in newRoll. The second call redos the random number and stores that result into newRoll, which is console logged with the rest of the string.
+
 c. What is the lexical scope of `newRoll`? 
+
+    The lexical scope of newRoll is within the anonymous function.
 
 ### Task 2c - Exit Ticket
 
